@@ -24,4 +24,4 @@ The following points are key details in the implementation of the timer:
 
 As the `Enter` key is used to stop the alarm, there is a need to flsuh the input buffer before playing the alarm and listening for the `\n` character.
 
-Currently, the program handles this by using cgo. This method was inspired by the solution posted [here](https://github.com/odeke-em/drive/issues/157). However, this method only works on Unix systems and not on Windows.
+Currently, the program handles this by using cgo. This method was inspired by the solution posted [here](https://github.com/odeke-em/drive/issues/157#issuecomment-96521389). However, this method only works on Unix systems and not on Windows.
